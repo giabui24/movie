@@ -11,15 +11,25 @@
         android:theme="@style/AppTheme" >
         <activity android:name=".MainActivity">
 
+
+        </activity>
+        <activity android:name=".MovieDetail"></activity>
+        <activity android:name=".VideoPlayerActivity"
+            android:screenOrientation="landscape"></activity>
+
+        <activity android:name=".MainActivityForgotPass" />
+        <activity android:name=".MainActivityAccount" />
+
+        <activity android:name=".MainActivityRegister" />
+        <activity android:name=".MainActivityInfoAcc"/>
+        <activity android:name=".MainActivityLogin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
-        <activity android:name=".MovieDetail"></activity>
-        <activity android:name=".VideoPlayerActivity"
-            android:screenOrientation="landscape"></activity>
 
         <meta-data
             android:name="preloaded_fonts"
