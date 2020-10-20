@@ -2,13 +2,14 @@
 <LinearLayout android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#0f171e"
     xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbarRegister"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="@color/colorAccent"></androidx.appcompat.widget.Toolbar>
+        android:background="@color/edittext"></androidx.appcompat.widget.Toolbar>
 
 
     <LinearLayout
@@ -43,8 +44,8 @@
                 android:hint="Email"
                 android:inputType="textEmailAddress"
                 android:padding="10dp"
-                android:textColor="@color/colorAccent"
-                android:textColorHint="@color/colorAccent" />
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff" />
 
             <EditText
                 android:id="@+id/edit_matkhau"
@@ -56,8 +57,8 @@
                 android:hint="Mật khẩu"
                 android:inputType="textPassword"
                 android:padding="10dp"
-                android:textColor="@color/colorAccent"
-                android:textColorHint="@color/colorAccent" />
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff" />
 
             <EditText
                 android:id="@+id/edit_xn_matkhau"
@@ -69,8 +70,8 @@
                 android:hint="Xác nhận mật khẩu"
                 android:inputType="textPassword"
                 android:padding="10dp"
-                android:textColor="@color/colorAccent"
-                android:textColorHint="@color/colorAccent" />
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff" />
 
 
             <Button
@@ -81,6 +82,7 @@
                 android:layout_marginTop="10dp"
                 android:background="@drawable/custom_button_dangnhap"
                 android:text="Tạo tài khoản"
+                android:textColor="#ffffff"
                 android:textStyle="bold" />
 
             <ProgressBar

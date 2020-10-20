@@ -3,14 +3,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/background">
+    android:background="#0f171e">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar_forgot"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:layout_gravity="top"
-        android:background="@color/colorAccent"></androidx.appcompat.widget.Toolbar>
+        android:background="@color/edittext"></androidx.appcompat.widget.Toolbar>
 
 
     <LinearLayout
@@ -48,9 +48,10 @@
                 android:layout_gravity="center"
                 android:background="@drawable/custom_edittext"
                 android:hint="Email"
+
                 android:padding="10sp"
-                android:textColor="@color/colorAccent"
-                android:textColorHint="@color/colorAccent" />
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff" />
 
             <Button
                 android:id="@+id/btn_send"

@@ -3,7 +3,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background"
+    android:background="#0f171e"
     android:orientation="vertical">
 
 
@@ -37,8 +37,8 @@
                 android:hint="Email"
                 android:padding="10sp"
                 android:inputType="textEmailAddress"
-                android:textColor="@color/colorAccent"
-                android:textColorHint="@color/colorAccent" />
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff" />
 
             <EditText
                 android:id="@+id/password"
@@ -50,8 +50,8 @@
                 android:background="@drawable/custom_edittext"
                 android:hint="Mật khẩu"
                 android:padding="10sp"
-                android:textColor="@color/colorAccent"
-                android:textColorHint="@color/colorAccent" />
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -89,7 +89,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="8dp"
                 android:text="Quên mật khẩu ?"
-                android:textColor="@color/colorAccent"
+                android:textColor="#ffffff"
                 android:textStyle="bold"
                 />
 
